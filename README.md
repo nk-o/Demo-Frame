@@ -10,7 +10,7 @@ Add demo links in file `/src/assets/js/script-init.js`
 
 
 ## Build with NPM
-Firs of all install npm and run in console:
+First of all install npm and run in console:
 ```
 npm install
 ```
