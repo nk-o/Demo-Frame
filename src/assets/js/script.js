@@ -3,10 +3,16 @@
 
     window.demo_init = function (opts) {
         var products = opts.products || {};
-        var currentProduct = opts.currentProduct || '';
+        var hash = location.hash.replace('#', '');
+        var currentProduct = (hash && hash in products ? hash : currentProduct) || opts.currentProduct || '';
+
+        // remove frame on iOs devices because of bugs
+        if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+            window.location.href = products[currentProduct].url;
+            return;
+        }
 
         var $productList = $('.demo-products-list');
-
 
         /**
          * Append Products in Dropdown
@@ -111,9 +117,8 @@
             }
         }
 
-        // get current product from hash if exists
-        var hash = location.hash.replace('#', '');
-        loadProduct(hash && hash in products ? hash : currentProduct);
+        // load default product
+        loadProduct(currentProduct);
 
         // hash changed - reload iframe
         $(window).on('hashchange', function() {
