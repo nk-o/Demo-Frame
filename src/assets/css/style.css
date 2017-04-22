@@ -180,13 +180,19 @@ img {
 /*
  * Theme List Wrap
  */
-.demo-products-list {
+.demo-products-list,
+.demo-products-demos-list {
     position: relative;
-    width: 220px;
+    width: 190px;
     display: inline-block;
     line-height: 1em;
 }
-.demo-products-list .demo-products-list-current {
+.demo-products-list:empty,
+.demo-products-demos-list:empty {
+    display: none;
+}
+.demo-products-list .demo-products-list-current,
+.demo-products-demos-list .demo-products-list-current {
     position: relative;
     display: block;
     background-color: #3a3a3a;
@@ -200,7 +206,9 @@ img {
     text-transform: capitalize;
 }
 .demo-products-list .demo-products-list-current:after,
-.demo-products-list .demo-products-list-current:before {
+.demo-products-list .demo-products-list-current:before,
+.demo-products-demos-list .demo-products-list-current:after,
+.demo-products-demos-list .demo-products-list-current:before {
     content: '';
     position: absolute;
     display: block;
@@ -215,7 +223,8 @@ img {
     -webkit-transform-origin: 100% 0;
     transform-origin: 100% 0;
 }
-.demo-products-list .demo-products-list-current:before {
+.demo-products-list .demo-products-list-current:before,
+.demo-products-demos-list .demo-products-list-current:before {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-transform-origin: 0 0;
@@ -254,10 +263,12 @@ img {
     color: #fff;
     background-color: #252525;
 }
-.demo-products-list:hover .demo-products-list-menu {
+.demo-products-list:hover .demo-products-list-menu,
+.demo-products-demos-list:hover .demo-products-list-menu {
     display:block;
 }
-.demo-products-list:hover .demo-products-list-current {
+.demo-products-list:hover .demo-products-list-current,
+.demo-products-demos-list:hover .demo-products-list-current {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -305,7 +316,8 @@ img {
     .demo-hide-md {
         display: none !important;
     }
-    .demo-products-list {
+    .demo-products-list,
+    .demo-products-demos-list {
         width: 200px;
     }
 }

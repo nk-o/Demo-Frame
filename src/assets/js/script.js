@@ -3,12 +3,35 @@
 
     window.demo_init = function (opts) {
         var products = opts.products || {};
+
+        // get product data
+        function getProduct (id) {
+            id = id.indexOf(".") !== -1 ? id.substring(0, id.indexOf(".")) : id;
+            var result = {
+                id: id
+            };
+            return products[id] ? $.extend(result, true, products[id]) : result;
+        }
+
+        // get product demo data
+        function getProductDemo (id) {
+            var demo_id = id.indexOf(".") !== -1 ? id.substring(id.indexOf(".") + 1) : id;
+            id = id.indexOf(".") !== -1 ? id.substring(0, id.indexOf(".")) : id;
+            var result = {
+                id: id,
+                demo_id: demo_id
+            };
+            return products[id] && products[id].demos && products[id].demos[demo_id] ? $.extend(result, true, products[id].demos[demo_id]) : result;
+        }
+
+
         var hash = location.hash.replace('#', '');
-        var currentProduct = (hash && hash in products ? hash : currentProduct) || opts.currentProduct || '';
+        var currentProduct = (getProduct(hash).name ? hash : currentProduct) || opts.currentProduct || '';
+
 
         // remove frame on iOs devices because of bugs
         if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
-            window.location.href = products[currentProduct].url;
+            window.location.href = getProduct(currentProduct).url;
             return;
         }
 
@@ -89,31 +112,68 @@
 
 
         /**
+         * Detect product demos and add new selector
+         */
+        var $productDemosList = $('.demo-products-demos-list');
+        function updateProductDemos () {
+            var productData = getProduct(currentProduct);
+            var productDemoData = getProductDemo(currentProduct);
+            if (productData.demos) {
+                var menuItems = '';
+                $.each(productData.demos, function(name, product) {
+                    menuItems += '<li><a href="#' + productData.id + '.' + name + '">' + product.name + '</a></li>';
+                });
+                menuItems = '<span class="demo-products-list-current"></span><ul class="demo-products-list-menu">' + menuItems + '</ul>';
+                $productDemosList.html(menuItems);
+            } else {
+                $productDemosList.html('');
+            }
+        }
+
+
+        /**
          * Load Product Demo
          */
         var $iframe = $('.demo-frame > iframe');
         var $buy_button = $('[href="#buy-action"]');
         var $close_button = $('[href="#close-action"]');
         function loadProduct (id) {
-            if (id && id in products) {
+            var productData = getProduct(id);
+            var productDemoData = getProductDemo(id);
+            if (productData.name) {
                 currentProduct = id;
 
+                updateProductDemos();
+
+                var url = productDemoData.url || productData.url;
+                var purchase = productDemoData.purchase || productData.purchase;
+                var download = productDemoData.download || productData.download;
+
                 // update current theme name
-                $productList.find('.demo-products-list-current').text(products[id].name);
+                $productList.find('.demo-products-list-current').text(productData.name);
+
+                // update current demo name
+                $productDemosList.find('.demo-products-list-current').text(productDemoData.name || 'Select Demo');
 
                 // change buttons links and texts
-                $buy_button.attr('href', products[id].purchase || products[id].download);
-                $buy_button.html(products[id].purchase ? $buy_button.attr('data-purchase') : products[id].download ? $buy_button.attr('data-download') : '');
-                $close_button.attr('href', products[id].url);
+                $buy_button.attr('href', purchase || download);
+                $buy_button.html(purchase ? $buy_button.attr('data-purchase') : download ? $buy_button.attr('data-download') : '');
+                $close_button.attr('href', url);
 
                 // add active class on dropdown menu item
                 $productList.find('a')
                     .removeClass('is-active')
-                    .filter('[href="#' + id + '"]')
+                    .filter('[href="#' + productData.id + '"]')
+                    .addClass('is-active');
+
+                // add active class on demo dropdown menu item
+                $productDemosList.find('a')
+                    .removeClass('is-active')
+                    .filter('[href="#' + currentProduct + '"]')
                     .addClass('is-active');
 
                 // update iframe
-                $iframe.attr('src', products[id].url);
+                $iframe.attr('src', url);
             }
         }
 
