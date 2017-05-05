@@ -30,15 +30,15 @@
                 },
                 shooter: {
                     name     : 'Shooter',
-                    url      : 'https://wp.nkdev.info/youplay/demos-shooter/'
+                    url      : 'https://wp.nkdev.info/youplay/demo-shooter/'
                 },
                 anime: {
                     name     : 'Anime',
-                    url      : 'https://wp.nkdev.info/youplay/demos-anime/'
+                    url      : 'https://wp.nkdev.info/youplay/demo-anime/'
                 },
                 light: {
                     name     : 'Light',
-                    url      : 'https://wp.nkdev.info/youplay/demos-light/'
+                    url      : 'https://wp.nkdev.info/youplay/demo-light/'
                 }
             }
         },
@@ -75,15 +75,15 @@
                 },
                 one_page_agency: {
                     name     : 'One Page Agency',
-                    url      : 'https://wp.nkdev.info/snow/demos-one-page-agency/'
+                    url      : 'https://wp.nkdev.info/snow/demo-one-page-agency/'
                 },
                 digital_agency: {
                     name     : 'Digital Agency',
-                    url      : 'https://wp.nkdev.info/snow/demos-digital-agency/'
+                    url      : 'https://wp.nkdev.info/snow/demo-digital-agency/'
                 },
                 fullscreen_slider: {
                     name     : 'Fullscreen Slider',
-                    url      : 'https://wp.nkdev.info/snow/demos-fullscreen/'
+                    url      : 'https://wp.nkdev.info/snow/demo-fullscreen/'
                 }
             }
         },
@@ -100,11 +100,11 @@
                 },
                 light_demo: {
                     name     : 'Light',
-                    url      : 'https://wp.nkdev.info/umbrella/demos-light/'
+                    url      : 'https://wp.nkdev.info/umbrella/demo-light/'
                 },
                 video_demo: {
                     name     : 'Video',
-                    url      : 'https://wp.nkdev.info/umbrella/demos-video/'
+                    url      : 'https://wp.nkdev.info/umbrella/demo-video/'
                 },
                 studio_no_titles: {
                     name     : 'Studio w/o Titles',
