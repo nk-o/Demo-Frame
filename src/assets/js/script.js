@@ -82,7 +82,7 @@
             var wndW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
             var offset = 10;
             var w = parseFloat($previewImg.css('width'));
-            var l = $hovered[0].getBoundingClientRect().right + offset;
+            var l = $hovered.closest('.demo-products-list-menu')[0].getBoundingClientRect().right + offset;
             var t = $bar[0].getBoundingClientRect().bottom + offset;
 
             // check if width over window
