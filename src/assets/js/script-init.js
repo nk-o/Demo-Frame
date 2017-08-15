@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var currentProduct = 'godlike';
+    var currentProduct = 'khaki';
     var products = {
         awb : {
             name     : 'AWB',
@@ -10,12 +10,67 @@
             url      : 'https://wp.nkdev.info/free-advanced-wordpress-backgrounds/',
             download : 'https://nkdev.info/downloads/advanced-wordpress-backgrounds/'
         },
+        khaki : {
+            name     : 'Khaki',
+            tag      : 'WP',
+            img      : 'https://s3.envato.com/files/230741852/InlinePreview.__large_preview.jpg',
+            url      : 'https://wp.nkdev.info/khaki/',
+            purchase : 'https://themeforest.net/item/khaki-multipurpose-wordpress-theme/19968221?ref=_nK',
+            demos: {
+                corporate: {
+                    name     : 'Corporate',
+                    url      : 'https://wp.nkdev.info/khaki/corporate'
+                },
+                music_label: {
+                    name     : 'Music Label',
+                    url      : 'https://wp.nkdev.info/khaki/demo-music-label'
+                },
+                drone: {
+                    name     : 'Drone',
+                    url      : 'https://wp.nkdev.info/khaki/demo-drone'
+                },
+                app_landing: {
+                    name     : 'App Landing',
+                    url      : 'https://wp.nkdev.info/khaki/demo-app-2'
+                },
+                gallery: {
+                    name     : 'Gallery',
+                    url      : 'https://wp.nkdev.info/khaki/demo-gallery'
+                },
+                barber: {
+                    name     : 'Barber',
+                    url      : 'https://wp.nkdev.info/khaki/demo-barber'
+                },
+                band: {
+                    name     : 'Band',
+                    url      : 'https://wp.nkdev.info/khaki/demo-band'
+                },
+                gaming: {
+                    name     : 'Gaming',
+                    url      : 'https://wp.nkdev.info/khaki/demo-gaming'
+                },
+                app_showcase: {
+                    name     : 'App Showcase',
+                    url      : 'https://wp.nkdev.info/khaki/demo-app'
+                }
+            }
+        },
         godlike : {
             name     : 'Godlike',
             tag      : 'WP',
-            img      : 'https://image-tf.s3.envato.com/files/218726094/InlinePreview.__large_preview.jpg',
+            img      : 'https://image-tf.s3.envato.com/files/225728054/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/godlike/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=18711623&ref=_nK'
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=18711623&ref=_nK',
+            demos: {
+                main: {
+                    name     : 'Main',
+                    url      : 'https://wp.nkdev.info/godlike/main/'
+                },
+                game_promo: {
+                    name     : 'Game Promo',
+                    url      : 'https://wp.nkdev.info/godlike/game-promo/'
+                }
+            }
         },
         youplay : {
             name     : 'Youplay',
@@ -206,6 +261,51 @@
                 }
             }
         },
+        piroll_html : {
+            name     : 'Piroll',
+            tag      : 'HTML',
+            img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
+            url      : 'https://html.nkdev.info/piroll/',
+            purchase : 'https://themeforest.net/item/piroll-minimal-and-modern-portfolio-html-template/20372990?ref=_nK',
+            demos: {
+                minimal_portfolio: {
+                    name     : 'Minimal Portfolio',
+                    url      : 'https://html.nkdev.info/piroll/home-1.html'
+                },
+                masonry_portfolio: {
+                    name     : 'Masonry Portfolio',
+                    url      : 'https://html.nkdev.info/piroll/home-2.html'
+                },
+                classic_portfolio: {
+                    name     : 'Classic Portfolio',
+                    url      : 'https://html.nkdev.info/piroll/home-3.html'
+                },
+                freelancer_portfolio: {
+                    name     : 'Freelancer Portfolio',
+                    url      : 'https://html.nkdev.info/piroll/home-4.html'
+                },
+                slider_home: {
+                    name     : 'Slider Home',
+                    url      : 'https://html.nkdev.info/piroll/home-5.html'
+                },
+                fullscreen_slider: {
+                    name     : 'Fullscreen Slider',
+                    url      : 'https://html.nkdev.info/piroll/home-6.html'
+                },
+                agency_portfolio: {
+                    name     : 'Agency Portfolio',
+                    url      : 'https://html.nkdev.info/piroll/home-7.html'
+                },
+                video_home: {
+                    name     : 'Video Home',
+                    url      : 'https://html.nkdev.info/piroll/home-8.html'
+                },
+                creative_dark: {
+                    name     : 'Creative Dark',
+                    url      : 'https://html.nkdev.info/piroll/home-9.html'
+                }
+            }
+        },
         snow_html : {
             name     : 'Snow',
             tag      : 'HTML',
@@ -237,7 +337,7 @@
                     name     : 'Minimal Agency',
                     url      : 'https://html.nkdev.info/snow/home-6.html'
                 },
-                onde_page_agency: {
+                one_page_agency: {
                     name     : 'One Page Agency',
                     url      : 'https://html.nkdev.info/snow/home-7.html'
                 },
