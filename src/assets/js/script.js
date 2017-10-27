@@ -63,7 +63,7 @@
                 var bottom = rect.bottom + offset;
 
                 if (bottom > wndH) {
-                    $productListMenu.css('height', rect.height - (bottom - wndH));
+                    $productListMenu.css('height', (rect.height - (bottom - wndH)) + 'px');
                 }
                 $productListMenu.css('display', '');
             }, 100);
@@ -73,9 +73,11 @@
         /**
          * Preview Image Container
          */
+        $('body').append('<div class="demo-preview-cont"></div>');
         var $bar = $('.demo-bar');
-        var $previewCont = $('<div class="demo-preview-cont"></div>').appendTo('body');
-        var $previewImg = $('<img>').appendTo($previewCont);
+        var $previewCont = $('.demo-preview-cont');
+            $previewCont.append('<img>');
+        var $previewImg = $previewCont.find('img');
 
         function setPreviewPos ($hovered) {
             $previewImg.attr('style', '');
@@ -91,13 +93,13 @@
             }
 
             $previewImg.css({
-                left: l,
-                top: t,
-                width: w
+                left: l + 'px',
+                top: t + 'px',
+                width: w + 'px'
             });
         }
 
-        $productList.on('mouseenter', 'li > a', function () {
+        $productList.on('mouseenter', 'li > a', function (e) {
             var hash = this.hash.replace('#', '');
 
             if (hash && hash in products) {
@@ -186,4 +188,4 @@
         });
     };
 
-}(jQuery));
+}($));
