@@ -103,7 +103,7 @@
             var hash = this.hash.replace('#', '');
 
             if (hash && hash in products) {
-                $previewImg.attr('src', products[hash].img);
+                $previewImg.attr('src', products[hash].img || '');
                 setPreviewPos($(this));
                 $previewCont.addClass('is-active');
             }

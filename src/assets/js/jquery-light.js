@@ -214,7 +214,7 @@
     $.extend($.fn, {
         html: function ( val ) {
             var self = this;
-            if ( val ) {
+            if ( typeof val !== 'undefined' ) {
                 return self.each( function () {
                     this.innerHTML = val;
                 });
@@ -225,7 +225,7 @@
 
         text: function ( val ) {
             var self = this;
-            if ( val ) {
+            if ( typeof val !== 'undefined' ) {
                 return self.each( function () {
                     this.innerHTML = val;
                 });
@@ -236,7 +236,7 @@
 
         attr: function ( name, val ) {
             var self = this;
-            if ( val ) {
+            if ( typeof val !== 'undefined' ) {
                 return self.each( function () {
                     this.setAttribute(name, val);
                 });
