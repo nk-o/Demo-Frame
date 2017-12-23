@@ -6,9 +6,16 @@
         awb : {
             name     : 'AWB',
             tag      : 'Free',
-            img      : 'https://nkdev.info/wp-content/uploads/edd/2016/11/awb.jpg',
+            img      : 'https://a.nkdev.info/jarallax/awb-preview.jpg',
             url      : 'https://wp.nkdev.info/free-advanced-wordpress-backgrounds/',
             download : 'https://nkdev.info/downloads/advanced-wordpress-backgrounds/'
+        },
+        'visual-portfolio' : {
+            name     : 'Visual Portfolio',
+            tag      : 'Free',
+            img      : 'https://a.nkdev.info/visual-portfolio/preview.jpg',
+            url      : 'https://wp.nkdev.info/free-visual-portfolio/',
+            download : 'https://nkdev.info/downloads/visual-portfolio/'
         },
         khaki : {
             name     : 'Khaki',
@@ -58,7 +65,7 @@
         godlike : {
             name     : 'Godlike',
             tag      : 'WP',
-            img      : 'https://image-tf.s3.envato.com/files/225728054/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/232945805/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/godlike/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=18711623&ref=_nK',
             demos: {
@@ -75,7 +82,7 @@
         youplay : {
             name     : 'Youplay',
             tag      : 'WP',
-            img      : 'https://image-tf.s3.envato.com/files/216777453/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/216777453/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/youplay/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=11959042&ref=_nK',
             demos: {
@@ -97,10 +104,55 @@
                 }
             }
         },
+        piroll : {
+            name     : 'Piroll',
+            tag      : 'WP',
+            img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
+            url      : 'https://wp.nkdev.info/piroll/',
+            purchase : 'https://themeforest.net/user/_nk/portfolio?ref=_nK',
+            demos: {
+                minimal_portfolio: {
+                    name     : 'Minimal Portfolio',
+                    url      : 'https://wp.nkdev.info/piroll/home-minimal-portfolio/?nav=fs'
+                },
+                masonry_portfolio: {
+                    name     : 'Masonry Portfolio',
+                    url      : 'https://wp.nkdev.info/piroll/home-masonry-portfolio/?nav=split'
+                },
+                classic_portfolio: {
+                    name     : 'Classic Portfolio',
+                    url      : 'https://wp.nkdev.info/piroll/home-classic-portfolio/?nav-fs'
+                },
+                freelancer_portfolio: {
+                    name     : 'Freelancer Portfolio',
+                    url      : 'https://wp.nkdev.info/piroll/home-freelancer-portfolio/?footer=light'
+                },
+                slider_home: {
+                    name     : 'Slider Home',
+                    url      : 'https://wp.nkdev.info/piroll/home-slider/?nav-fs&footer=light'
+                },
+                fullscreen_slider: {
+                    name     : 'Fullscreen Slider',
+                    url      : 'https://wp.nkdev.info/piroll/fullscreen-slider/'
+                },
+                agency_portfolio: {
+                    name     : 'Agency Portfolio',
+                    url      : 'https://wp.nkdev.info/piroll/home-agency-portfolio/?nav=split'
+                },
+                video_home: {
+                    name     : 'Video Home',
+                    url      : 'https://wp.nkdev.info/piroll/home-video/?nav-fs'
+                },
+                creative_dark: {
+                    name     : 'Creative Dark',
+                    url      : 'https://wp.nkdev.info/piroll/creative-dark/'
+                }
+            }
+        },
         snow : {
             name     : 'Snow',
             tag      : 'WP',
-            img      : 'https://image-tf.s3.envato.com/files/220224572/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/229723277/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/snow/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=19347252&ref=_nK',
             demos: {
@@ -142,10 +194,41 @@
                 }
             }
         },
+        riseapp : {
+            name     : 'Riseapp',
+            tag      : 'WP',
+            img      : 'https://s3.envato.com/files/235030366/InlinePreview.__large_preview.jpg',
+            url      : 'https://wp.nkdev.info/riseapp/',
+            purchase : 'https://themeforest.net/user/_nk/portfolio?ref=_nK'
+        },
+        musart : {
+            name     : 'Musart',
+            tag      : 'WP',
+            img      : 'https://s3.envato.com/files/236036877/InlinePreview.__large_preview.jpg',
+            url      : 'https://wp.nkdev.info/musart/',
+            purchase : 'https://themeforest.net/item/musart-music-label-and-artists-wordpress-theme/20890063?ref=_nK',
+            demos: {
+                label: {
+                    name     : 'Music Label',
+                    url      : 'https://wp.nkdev.info/musart/musart-label/'
+                },
+                band: {
+                    name     : 'Rock Band',
+                    url      : 'https://wp.nkdev.info/musart/band/'
+                }
+            }
+        },
+        quator : {
+            name     : 'Quator',
+            tag      : 'WP',
+            url      : 'https://wp.nkdev.info/copter/',
+            img      : 'https://s3.envato.com/files/238711897/InlinePreview.__large_preview.jpg',
+            purchase : 'https://themeforest.net/item/quator-single-product-wordpress-theme/20953598?ref=_nK'
+        },
         umbrella : {
             name     : 'Umbrella',
             tag      : 'WP',
-            img      : 'https://image-tf.s3.envato.com/files/219847768/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/219847768/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/umbrella/landing/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=18068692&ref=_nK',
             demos: {
@@ -170,7 +253,7 @@
         godlike_html : {
             name     : 'Godlike',
             tag      : 'HTML',
-            img      : 'https://image-tf.s3.envato.com/files/196803853/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/196803853/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/godlike/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=17166433&ref=_nK',
             demos: {
@@ -187,7 +270,7 @@
         youplay_html : {
             name     : 'Youplay',
             tag      : 'HTML',
-            img      : 'https://image-tf.s3.envato.com/files/192949810/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/192949810/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/youplay/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=11306207&ref=_nK',
             demos: {
@@ -212,14 +295,14 @@
         goodgames_html : {
             name     : 'GoodGames',
             tag      : 'HTML',
-            img      : 'https://image-tf.s3.envato.com/files/205378368/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/205378368/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/goodgames/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=17704593&ref=_nK'
         },
         khaki_html : {
             name     : 'Khaki',
             tag      : 'HTML',
-            img      : 'https://image-tf.s3.envato.com/files/193366232/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/223042890/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/khaki/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=16826910&ref=_nK',
             demos: {
@@ -309,7 +392,7 @@
         snow_html : {
             name     : 'Snow',
             tag      : 'HTML',
-            img      : 'https://image-tf.s3.envato.com/files/220787616/00_Preview2.__large_preview.png',
+            img      : 'https://s3.envato.com/files/220787616/00_Preview2.__large_preview.png',
             url      : 'https://html.nkdev.info/snow/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=18880113&ref=_nK',
             demos: {
@@ -354,7 +437,7 @@
         umbrella_html : {
             name     : 'Umbrella',
             tag      : 'HTML',
-            img      : 'https://image-tf.s3.envato.com/files/219756952/01_preview%20HTML.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/219756952/01_preview%20HTML.__large_preview.jpg',
             url      : 'https://html.nkdev.info/umbrella/demo.html',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=17889537&ref=_nK',
             demos: {
@@ -379,7 +462,7 @@
         con : {
             name     : 'Con',
             tag      : 'HTML',
-            img      : 'https://image-tf.s3.envato.com/files/171119514/InlinePreview.__large_preview.jpg',
+            img      : 'https://s3.envato.com/files/171119514/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/_con/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=10621512&ref=_nK',
             demos: {
