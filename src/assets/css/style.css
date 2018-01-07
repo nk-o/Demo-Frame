@@ -39,6 +39,7 @@ img {
     height: auto;
 }
 *, *:after, *:before {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -142,6 +143,7 @@ img {
     padding: 8px 20px;
     top: -1px;
     background-color: #82b440;
+    -webkit-box-shadow: 0 2px 0 #6f9a37;
     box-shadow: 0 2px 0 #6f9a37;
 }
 .demo-envato-btn,
@@ -155,6 +157,7 @@ img {
 }
 .demo-envato-btn:active {
     top: 1px;
+    -webkit-box-shadow: 0 1px 0 #7aa93c;
     box-shadow: 0 1px 0 #7aa93c;
 }
 .demo-envato-btn:empty {
@@ -221,15 +224,19 @@ img {
     border-bottom: 1px solid;
     border-top: 1px solid;
     -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
     transform-origin: 100% 0;
 }
 .demo-products-list .demo-products-list-current:before,
 .demo-products-demos-list .demo-products-list-current:before {
     -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
     transform-origin: 0 0;
 }
 .demo-products-list-menu {
@@ -287,6 +294,7 @@ img {
     right: 0;
     bottom: 0;
     -webkit-transition: .4s background-color, .4s visibility;
+    -o-transition: .4s background-color, .4s visibility;
     transition: .4s background-color, .4s visibility;
 }
 .demo-preview-cont.is-active {
