@@ -119,7 +119,6 @@
         var $productDemosList = $('.demo-products-demos-list');
         function updateProductDemos () {
             var productData = getProduct(currentProduct);
-            var productDemoData = getProductDemo(currentProduct);
             if (productData.demos) {
                 var menuItems = '';
                 $.each(productData.demos, function(name, product) {
