@@ -3,28 +3,28 @@
 
     var currentProduct = 'khaki';
     var products = {
-        awb : {
+        awb: {
             name     : 'AWB',
             tag      : 'Free',
             img      : 'https://a.nkdev.info/jarallax/awb-preview.jpg',
             url      : 'https://wp.nkdev.info/free-advanced-wordpress-backgrounds/',
             download : 'https://nkdev.info/downloads/advanced-wordpress-backgrounds/'
         },
-        'visual-portfolio' : {
+        'visual-portfolio': {
             name     : 'Visual Portfolio',
             tag      : 'Free',
             img      : 'https://a.nkdev.info/visual-portfolio/preview.jpg',
             url      : 'https://wp.nkdev.info/free-visual-portfolio/',
             download : 'https://nkdev.info/downloads/visual-portfolio/'
         },
-        docspress : {
+        docspress: {
             name     : 'DocsPress',
             tag      : 'Free',
             img      : 'https://a.nkdev.info/docspress/preview.jpg',
             url      : 'https://nkdev.info/docs/',
             download : 'https://nkdev.info/downloads/docspress/'
         },
-        khaki : {
+        khaki: {
             name     : 'Khaki',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230741852/InlinePreview.__large_preview.jpg',
@@ -69,7 +69,7 @@
                 }
             }
         },
-        godlike : {
+        godlike: {
             name     : 'Godlike',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/232945805/InlinePreview.__large_preview.jpg',
@@ -86,7 +86,7 @@
                 }
             }
         },
-        youplay : {
+        youplay: {
             name     : 'Youplay',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/216777453/InlinePreview.__large_preview.jpg',
@@ -111,7 +111,7 @@
                 }
             }
         },
-        piroll : {
+        piroll: {
             name     : 'Piroll',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
@@ -156,7 +156,7 @@
                 }
             }
         },
-        snow : {
+        snow: {
             name     : 'Snow',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/229723277/InlinePreview.__large_preview.jpg',
@@ -201,14 +201,14 @@
                 }
             }
         },
-        riseapp : {
+        riseapp: {
             name     : 'Riseapp',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/235030366/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/riseapp/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=20796199&ref=_nK'
         },
-        musart : {
+        musart: {
             name     : 'Musart',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/236036877/InlinePreview.__large_preview.jpg',
@@ -225,14 +225,14 @@
                 }
             }
         },
-        quator : {
+        quator: {
             name     : 'Quator',
             tag      : 'WP',
             url      : 'https://wp.nkdev.info/copter/',
             img      : 'https://s3.envato.com/files/238711897/InlinePreview.__large_preview.jpg',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=20953598&ref=_nK'
         },
-        umbrella : {
+        umbrella: {
             name     : 'Umbrella',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/219847768/InlinePreview.__large_preview.jpg',
@@ -257,7 +257,7 @@
                 }
             }
         },
-        godlike_html : {
+        godlike_html: {
             name     : 'Godlike',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/196803853/InlinePreview.__large_preview.jpg',
@@ -274,7 +274,7 @@
                 }
             }
         },
-        youplay_html : {
+        youplay_html: {
             name     : 'Youplay',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/192949810/InlinePreview.__large_preview.jpg',
@@ -299,14 +299,14 @@
                 }
             }
         },
-        goodgames_html : {
+        goodgames_html: {
             name     : 'GoodGames',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/205378368/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/goodgames/',
             purchase : 'https://themeforest.net/cart/add_items?item_ids=17704593&ref=_nK'
         },
-        khaki_html : {
+        khaki_html: {
             name     : 'Khaki',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/223042890/InlinePreview.__large_preview.jpg',
@@ -351,7 +351,7 @@
                 }
             }
         },
-        piroll_html : {
+        piroll_html: {
             name     : 'Piroll',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
@@ -396,7 +396,7 @@
                 }
             }
         },
-        snow_html : {
+        snow_html: {
             name     : 'Snow',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/220787616/00_Preview2.__large_preview.png',
@@ -441,7 +441,7 @@
                 }
             }
         },
-        umbrella_html : {
+        umbrella_html: {
             name     : 'Umbrella',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/219756952/01_preview%20HTML.__large_preview.jpg',
@@ -466,7 +466,7 @@
                 }
             }
         },
-        con : {
+        con: {
             name     : 'Con',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/171119514/InlinePreview.__large_preview.jpg',
