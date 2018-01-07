@@ -17,6 +17,13 @@
             url      : 'https://wp.nkdev.info/free-visual-portfolio/',
             download : 'https://nkdev.info/downloads/visual-portfolio/'
         },
+        docspress : {
+            name     : 'DocsPress',
+            tag      : 'Free',
+            img      : 'https://a.nkdev.info/docspress/preview.jpg',
+            url      : 'https://nkdev.info/docs/',
+            download : 'https://nkdev.info/downloads/docspress/'
+        },
         khaki : {
             name     : 'Khaki',
             tag      : 'WP',
