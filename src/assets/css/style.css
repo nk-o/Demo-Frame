@@ -207,8 +207,12 @@ img {
     cursor: pointer;
     font-size: 14px;
     padding: 5px 15px;
+    padding-right: 25px;
     line-height: 1.5;
     text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .demo-products-list .demo-products-list-current:after,
 .demo-products-list .demo-products-list-current:before,
