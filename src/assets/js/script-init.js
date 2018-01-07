@@ -29,7 +29,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230741852/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/khaki/',
-            purchase : 'https://themeforest.net/item/khaki-multipurpose-wordpress-theme/19968221?ref=_nK',
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=19968221&ref=_nK',
             demos: {
                 corporate: {
                     name     : 'Corporate',
@@ -116,7 +116,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/piroll/',
-            purchase : 'https://themeforest.net/user/_nk/portfolio?ref=_nK',
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=20672319&ref=_nK',
             demos: {
                 minimal_portfolio: {
                     name     : 'Minimal Portfolio',
@@ -206,14 +206,14 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/235030366/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/riseapp/',
-            purchase : 'https://themeforest.net/user/_nk/portfolio?ref=_nK'
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=20796199&ref=_nK'
         },
         musart : {
             name     : 'Musart',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/236036877/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/musart/',
-            purchase : 'https://themeforest.net/item/musart-music-label-and-artists-wordpress-theme/20890063?ref=_nK',
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=20890063&ref=_nK',
             demos: {
                 label: {
                     name     : 'Music Label',
@@ -230,7 +230,7 @@
             tag      : 'WP',
             url      : 'https://wp.nkdev.info/copter/',
             img      : 'https://s3.envato.com/files/238711897/InlinePreview.__large_preview.jpg',
-            purchase : 'https://themeforest.net/item/quator-single-product-wordpress-theme/20953598?ref=_nK'
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=20953598&ref=_nK'
         },
         umbrella : {
             name     : 'Umbrella',
@@ -356,7 +356,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/piroll/',
-            purchase : 'https://themeforest.net/item/piroll-minimal-and-modern-portfolio-html-template/20372990?ref=_nK',
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=20372990&ref=_nK',
             demos: {
                 minimal_portfolio: {
                     name     : 'Minimal Portfolio',
