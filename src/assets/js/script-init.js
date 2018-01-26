@@ -262,7 +262,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/239290731/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/skylith/',
-            purchase : 'https://themeforest.net/user/_nk/portfolio?ref=_nK',
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=21214857&ref=_nK',
             demos: {
                 minimal_split: {
                     name     : 'Minimal Split',
