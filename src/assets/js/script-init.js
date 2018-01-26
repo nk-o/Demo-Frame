@@ -257,6 +257,123 @@
                 }
             }
         },
+        skylith_html: {
+            name     : 'Skylith',
+            tag      : 'HTML',
+            img      : 'https://s3.envato.com/files/239290731/InlinePreview.__large_preview.jpg',
+            url      : 'https://html.nkdev.info/skylith/',
+            purchase : 'https://themeforest.net/user/_nk/portfolio?ref=_nK',
+            demos: {
+                minimal_split: {
+                    name     : 'Minimal Split',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-split.html'
+                },
+                minimal_classic_agency: {
+                    name     : 'Minimal Classic Agency',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-classic-agency.html'
+                },
+                minimal_freelancer_portfolio: {
+                    name     : 'Minimal Freelancer Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-freelancer-portfolio.html'
+                },
+                minimal_photography: {
+                    name     : 'Minimal Photography',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-photography.html'
+                },
+                minimal_architecture: {
+                    name     : 'Minimal Architecture',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-architecture.html'
+                },
+                minimal_carousel_portfolio: {
+                    name     : 'Minimal Carousel Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-carousel-portfolio.html'
+                },
+                minimal_agency: {
+                    name     : 'Minimal Agency',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-agency.html'
+                },
+                minimal_agency_2: {
+                    name     : 'Minimal Agency 2',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-agency-2.html'
+                },
+                minimal_fullscreen: {
+                    name     : 'Minimal Fullscreen',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-fullscreen.html'
+                },
+                minimal_video: {
+                    name     : 'Minimal Video',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-video.html'
+                },
+                minimal_one_page: {
+                    name     : 'Minimal One Page',
+                    url      : 'https://html.nkdev.info/skylith/demo-minimal-one-page.html'
+                },
+                creative_agency: {
+                    name     : 'Creative Agency',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-agency.html'
+                },
+                creative_agency_2: {
+                    name     : 'Creative Agency 2',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-agency-2.html'
+                },
+                creative_portfolio: {
+                    name     : 'Creative Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-portfolio.html'
+                },
+                creative_designer_portfolio: {
+                    name     : 'Creative Designer Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-designer-portfolio.html'
+                },
+                creative_developer_portfolio: {
+                    name     : 'Creative Developer Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-developer-portfolio.html'
+                },
+                creative_business_one_page: {
+                    name     : 'Creative Business One Page',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-business-one-page.html'
+                },
+                creative_freelancer_portfolio: {
+                    name     : 'Creative Freelancer Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-freelancer-portfolio.html'
+                },
+                creative_outline_portfolio: {
+                    name     : 'Creative Outline Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-outline-portfolio.html'
+                },
+                creative_text: {
+                    name     : 'Creative Text',
+                    url      : 'https://html.nkdev.info/skylith/demo-creative-text.html'
+                },
+                dark_fullscreen: {
+                    name     : 'Dark Fullscreen',
+                    url      : 'https://html.nkdev.info/skylith/demo-dark-fullscreen.html'
+                },
+                dark_photographer: {
+                    name     : 'Dark Photographer',
+                    url      : 'https://html.nkdev.info/skylith/demo-dark-photographer.html'
+                },
+                dark_portfolio: {
+                    name     : 'Dark Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-dark-portfolio.html'
+                },
+                dark_creative_agency: {
+                    name     : 'Dark Creative Agency',
+                    url      : 'https://html.nkdev.info/skylith/demo-dark-creative-agency.html'
+                },
+                dark_modern_portfolio: {
+                    name     : 'Dark Modern Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-dark-modern-portfolio.html'
+                },
+                dark_split_portfolio: {
+                    name     : 'Dark Split Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-dark-split-portfolio.html'
+                },
+                dark_creative_portfolio: {
+                    name     : 'Dark Creative Portfolio',
+                    url      : 'https://html.nkdev.info/skylith/demo-dark-creative-portfolio.html'
+                }
+            }
+        },
         godlike_html: {
             name     : 'Godlike',
             tag      : 'HTML',
