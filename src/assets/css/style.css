@@ -189,7 +189,7 @@ img {
 .demo-products-demos-list {
     position: relative;
     width: 190px;
-    display: inline-block;
+    display: block;
     line-height: 1em;
 }
 .demo-products-list:empty,
