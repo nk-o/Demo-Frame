@@ -28,13 +28,18 @@
         var hash = location.hash.replace('#', '');
 
         // remove GET variable
-        hash = hash.split( '?' )[ 0 ];
+        var getVar = hash.split( '?' );
+        hash = getVar[ 0 ];
 
         var currentProduct = (getProduct(hash).name ? hash : currentProduct) || opts.currentProduct || '';
 
-
         // remove frame on iOs devices because of bugs
-        if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+        var removeFrame = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+        // support for Elements (remove demo frame)
+        removeFrame = removeFrame || 'storefront=envato-elements' === getVar[ 1 ];
+
+        if ( removeFrame ) {
             window.location.href = getProduct(currentProduct).url;
             return;
         }
