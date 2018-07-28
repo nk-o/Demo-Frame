@@ -26,6 +26,10 @@
 
 
         var hash = location.hash.replace('#', '');
+
+        // remove GET variable
+        hash = hash.split( '?' )[ 0 ];
+
         var currentProduct = (getProduct(hash).name ? hash : currentProduct) || opts.currentProduct || '';
 
 
