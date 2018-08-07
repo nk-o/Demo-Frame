@@ -88,6 +88,11 @@
             $previewCont.append('<img>');
         var $previewImg = $previewCont.find('img');
 
+        // show bar after delay.
+        setTimeout(function() {
+            $bar.addClass('demo-bar-show');
+        }, opts.showDelay);
+
         function setPreviewPos ($hovered) {
             $previewImg.attr('style', '');
             var wndW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
@@ -119,6 +124,31 @@
         });
         $productList.on('mouseleave', 'li > a', function () {
             $previewCont.removeClass('is-active');
+        });
+
+
+        /**
+         * Expand / Collapse demo bar.
+         */
+        $bar.addClass(localStorage.getItem('demo-frame-state') || 'demo-bar-show-state-3');
+        $('[href="#expand-action"], [href="#collapse-action"]').on('click', function(e) {
+            e.preventDefault();
+
+            var newClass = '';
+
+            if ( $bar.hasClass('demo-bar-show-state-1') ) {
+                newClass = 'demo-bar-show-state-2';
+            } else if ( $bar.hasClass('demo-bar-show-state-2') ) {
+                newClass = 'demo-bar-show-state-3';
+            } else {
+                newClass = 'demo-bar-show-state-1';
+            }
+
+            $bar.removeClass('demo-bar-show-state-1');
+            $bar.removeClass('demo-bar-show-state-2');
+            $bar.removeClass('demo-bar-show-state-3');
+            $bar.addClass(newClass);
+            localStorage.setItem('demo-frame-state', newClass);
         });
 
 

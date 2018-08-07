@@ -1,9 +1,6 @@
 /*
  * Bar Height
  */
-.demo-frame {
-    top: 54px;
-}
 .demo-bar,
 .demo-bar-items {
     height: 54px;
@@ -47,14 +44,59 @@ img {
  * Demo Bar
  */
 .demo-bar {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    border-radius: 4px;
     background-color: #2A2A2A;
+    -webkit-transform: translateY(-130%);
+        -ms-transform: translateY(-130%);
+            transform: translateY(-130%);
+    -webkit-transition: .4s transform ease-in-out;
+    -o-transition: .4s transform ease-in-out;
+    transition: .4s transform ease-in-out;
+    will-change: transform;
     z-index: 5;
+}
+.demo-bar.demo-bar-show {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
 }
 .demo-bar:after {
     content: '';
     display: table;
     clear: both;
+}
+
+/* Show State */
+.demo-bar-show-state-1 .hide-state-1 {
+    display: none;
+}
+.demo-bar-show-state-2 .hide-state-2 {
+    display: none;
+}
+.demo-bar-show-state-3 .hide-state-3 {
+    display: none;
+}
+
+.demo-bar-item-collapse {
+    display: none;
+}
+.demo-bar-show-state-1 .demo-hide-inactive {
+    display: block;
+}
+.demo-bar-show-state-1 .demo-bar-item-expand {
+    display: none;
+}
+.demo-bar.demo-bar-show-state-2 {
+    -webkit-transform: translateX(calc(-100% + 12px)) translateY(0);
+        -ms-transform: translateX(calc(-100% + 12px)) translateY(0);
+            transform: translateX(calc(-100% + 12px)) translateY(0);
+}
+.demo-bar-show-state-2 .demo-bar-item-collapse {
+    display: none;
 }
 
 .demo-bar-items {
@@ -63,14 +105,14 @@ img {
     margin: 0;
     padding: 0;
 }
-.demo-bar-items.demo-bar-items-right {
-    float: right;
-}
 .demo-bar-items > li {
     display: table;
     float: left;
     padding: 0 15px;
     height: 100%;
+}
+.demo-bar-items > .demo-bar-item-small {
+    padding: 0 5px;
 }
 .demo-bar-items > li + li {
     border-left: 1px solid #333;
@@ -100,6 +142,14 @@ img {
 }
 .demo-link-icon:hover {
     opacity: 0.7;
+}
+
+/*
+ *  Show / Hide Bar
+ */
+.demo-hide-inactive,
+.demo-bar-items .demo-hide-inactive {
+    display: none;
 }
 
 /*
@@ -171,6 +221,7 @@ img {
     position: fixed;
     display: block;
     left: 0;
+    top: 0;
     right: 0;
     bottom: 0;
     background-color: #353535;
@@ -212,7 +263,8 @@ img {
     text-transform: capitalize;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
 }
 .demo-products-list .demo-products-list-current:after,
 .demo-products-list .demo-products-list-current:before,

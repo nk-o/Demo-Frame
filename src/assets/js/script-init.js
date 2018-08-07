@@ -607,6 +607,8 @@
     };
 
     demo_init({
+        // 5 seconds delay, after it demo bar will be shown.
+        showDelay: 5000,
         products: products,
         currentProduct: currentProduct
     });

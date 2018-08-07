@@ -285,6 +285,10 @@
             });
         },
 
+        hasClass: function ( className ) {
+            return this[0].className.indexOf(className) >= 0;
+        },
+
         find: function ( selector ) {
             var newItems = $.fn.merge($(), []);
 
