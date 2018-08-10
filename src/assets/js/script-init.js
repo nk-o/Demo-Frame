@@ -8,21 +8,21 @@
             tag      : 'Free',
             img      : 'https://a.nkdev.info/jarallax/awb-preview.jpg',
             url      : 'https://wp.nkdev.info/free-advanced-wordpress-backgrounds/',
-            download : 'https://nkdev.info/downloads/advanced-wordpress-backgrounds/'
+            download : 'https://wordpress.org/plugins/advanced-backgrounds/'
         },
         'visual-portfolio': {
             name     : 'Visual Portfolio',
             tag      : 'Free',
             img      : 'https://a.nkdev.info/visual-portfolio/preview.jpg',
             url      : 'https://wp.nkdev.info/free-visual-portfolio/',
-            download : 'https://nkdev.info/downloads/visual-portfolio/'
+            download : 'https://wordpress.org/plugins/visual-portfolio/'
         },
         docspress: {
             name     : 'DocsPress',
             tag      : 'Free',
             img      : 'https://a.nkdev.info/docspress/preview.jpg',
             url      : 'https://nkdev.info/docs/',
-            download : 'https://nkdev.info/downloads/docspress/'
+            download : 'https://wordpress.org/plugins/docspress/'
         },
         khaki: {
             name     : 'Khaki',
@@ -154,6 +154,75 @@
                     name     : 'Creative Dark',
                     url      : 'https://wp.nkdev.info/piroll/creative-dark/'
                 }
+            }
+        },
+        mimilism: {
+            name     : 'Mimilism',
+            tag      : 'WP',
+            img      : 'https://s3.envato.com/files/252286659/00_Preview_WP.__large_preview.jpg',
+            url      : 'https://wp.nkdev.info/mimilism/',
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=22436104&ref=_nK',
+            demos: {
+                home_1: {
+                    name     : 'Minimal Agency',
+                    url      : 'https://wp.nkdev.info/mimilism/home-1/'
+                },
+                home_2: {
+                    name     : 'Portfolio 2 Columns',
+                    url      : 'https://wp.nkdev.info/mimilism/home-2/'
+                },
+                home_3: {
+                    name     : 'Portfolio 3 Columns',
+                    url      : 'https://wp.nkdev.info/mimilism/home-3/'
+                },
+                home_4: {
+                    name     : 'Digital Agency',
+                    url      : 'https://wp.nkdev.info/mimilism/home-4/'
+                },
+                home_5: {
+                    name     : 'Portfolio 4 Columns',
+                    url      : 'https://wp.nkdev.info/mimilism/home-5/'
+                },
+                home_6: {
+                    name     : 'Minimal Agency 2',
+                    url      : 'https://wp.nkdev.info/mimilism/home-6/'
+                },
+                home_7: {
+                    name     : 'Agency Portfolio',
+                    url      : 'https://wp.nkdev.info/mimilism/home-7/'
+                },
+                home_8: {
+                    name     : 'Minimal Portfolio',
+                    url      : 'https://wp.nkdev.info/mimilism/home-8/'
+                },
+                home_9: {
+                    name     : 'Digital Agency 2',
+                    url      : 'https://wp.nkdev.info/mimilism/home-9/'
+                },
+                home_10: {
+                    name     : 'Fullscreen Slider',
+                    url      : 'https://wp.nkdev.info/mimilism/home-10/'
+                },
+                home_11: {
+                    name     : 'Freelancer Portfolio',
+                    url      : 'https://wp.nkdev.info/mimilism/home-11/'
+                },
+                home_12: {
+                    name     : 'Home & Video',
+                    url      : 'https://wp.nkdev.info/mimilism/home-12/'
+                },
+                home_13: {
+                    name     : 'Fullscreen Slider 2',
+                    url      : 'https://wp.nkdev.info/mimilism/home-13/'
+                },
+                home_14: {
+                    name     : 'Dark Portfolio',
+                    url      : 'https://wp.nkdev.info/mimilism/home-14/'
+                },
+                home_15: {
+                    name     : 'Portfolio 1 Column',
+                    url      : 'https://wp.nkdev.info/mimilism/home-15/'
+                },
             }
         },
         snow: {
