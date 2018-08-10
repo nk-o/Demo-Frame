@@ -51,7 +51,7 @@
          */
         var menuItems = '';
         $.each(products, function(name, product) {
-            menuItems += '<li><a href="#' + name + '">' + product.name + '<span class="demo-label demo-label-' + product.tag.toLowerCase() + '">' + product.tag + '</span></a></li>';
+            menuItems += '<li><a href="#' + name + '" target="_top">' + product.name + '<span class="demo-label demo-label-' + product.tag.toLowerCase() + '">' + product.tag + '</span></a></li>';
         });
         menuItems = '<span class="demo-products-list-current"></span><ul class="demo-products-list-menu">' + menuItems + '</ul>';
         $productList.html(menuItems);
@@ -151,6 +151,14 @@
             localStorage.setItem('demo-frame-state', newClass);
         });
 
+        // show purchase button when there is no top iframe (Envato iframe)
+        if ( top === self ) {
+            $('.show-when-no-top-frame')
+                .removeClass('hide-state-1')
+                .removeClass('hide-state-2')
+                .removeClass('hide-state-3');
+        }
+
 
         /**
          * Detect product demos and add new selector
@@ -161,7 +169,7 @@
             if (productData.demos) {
                 var menuItems = '';
                 $.each(productData.demos, function(name, product) {
-                    menuItems += '<li><a href="#' + productData.id + '.' + name + '">' + product.name + '</a></li>';
+                    menuItems += '<li><a href="#' + productData.id + '.' + name + '" target="_top">' + product.name + '</a></li>';
                 });
                 menuItems = '<span class="demo-products-list-current"></span><ul class="demo-products-list-menu">' + menuItems + '</ul>';
                 $productDemosList.html(menuItems);

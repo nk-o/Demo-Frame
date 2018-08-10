@@ -80,23 +80,10 @@ img {
 .demo-bar-show-state-3 .hide-state-3 {
     display: none;
 }
-
-.demo-bar-item-collapse {
-    display: none;
-}
-.demo-bar-show-state-1 .demo-hide-inactive {
-    display: block;
-}
-.demo-bar-show-state-1 .demo-bar-item-expand {
-    display: none;
-}
 .demo-bar.demo-bar-show-state-2 {
     -webkit-transform: translateX(calc(-100% + 12px)) translateY(0);
         -ms-transform: translateX(calc(-100% + 12px)) translateY(0);
             transform: translateX(calc(-100% + 12px)) translateY(0);
-}
-.demo-bar-show-state-2 .demo-bar-item-collapse {
-    display: none;
 }
 
 .demo-bar-items {
