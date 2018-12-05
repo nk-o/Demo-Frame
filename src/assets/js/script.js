@@ -130,7 +130,7 @@
         /**
          * Expand / Collapse demo bar.
          */
-        $bar.addClass(localStorage.getItem('demo-frame-state') || 'demo-bar-show-state-3');
+        $bar.addClass(localStorage && localStorage.getItem('demo-frame-state') || 'demo-bar-show-state-3');
         $('[href="#expand-action"], [href="#collapse-action"]').on('click', function(e) {
             e.preventDefault();
 
@@ -148,7 +148,10 @@
             $bar.removeClass('demo-bar-show-state-2');
             $bar.removeClass('demo-bar-show-state-3');
             $bar.addClass(newClass);
-            localStorage.setItem('demo-frame-state', newClass);
+            
+            if ( localStorage ) {
+                localStorage.setItem('demo-frame-state', newClass);
+            }
         });
 
         // show purchase button when there is no top iframe (Envato iframe)
