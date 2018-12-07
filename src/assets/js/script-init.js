@@ -443,6 +443,13 @@
                 }
             }
         },
+        amdesk_html: {
+            name     : 'Amdesk',
+            tag      : 'HTML',
+            img      : 'https://s3.envato.com/files/257525009/InlinePreview.__large_preview.png',
+            url      : 'https://html.nkdev.info/amdesk/',
+            purchase : 'https://themeforest.net/cart/add_items?item_ids=22996880&ref=_nK'
+        },
         godlike_html: {
             name     : 'Godlike',
             tag      : 'HTML',
