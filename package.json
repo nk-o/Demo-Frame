@@ -7,8 +7,8 @@
         "npm": ">=3.10"
     },
     "devDependencies": {
-        "inline-source": "^5.2.0",
-        "filendir": "^1.0.0"
+        "inline-source": "^6.1.9",
+        "filendir": "^1.0.2"
     },
     "scripts": {
         "start": "node build.js"

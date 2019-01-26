@@ -1,13 +1,27 @@
 (function () {
     'use strict';
 
-    var currentProduct = 'khaki';
+    var currentProduct = 'skylith';
     var products = {
+        ghostkit: {
+            name     : 'Ghost Kit',
+            tag      : 'Free',
+            img      : 'https://a.nkdev.info/ghostkit/preview.png',
+            url      : 'https://ghostkit.io/',
+            download : 'https://wordpress.org/plugins/ghostkit/'
+        },
+        'lazy-blocks': {
+            name     : 'Lazy Blocks',
+            tag      : 'Free',
+            img      : 'https://a.nkdev.info/lazy-blocks/preview.png',
+            url      : 'https://lazyblocks.com/',
+            download : 'https://wordpress.org/plugins/lazy-blocks/'
+        },
         awb: {
-            name     : 'AWB',
+            name     : 'Advanced Backgrounds',
             tag      : 'Free',
             img      : 'https://a.nkdev.info/jarallax/awb-preview.jpg',
-            url      : 'https://wp.nkdev.info/free-advanced-wordpress-backgrounds/',
+            url      : 'https://wpbackgrounds.com/',
             download : 'https://wordpress.org/plugins/advanced-backgrounds/'
         },
         'visual-portfolio': {
@@ -17,19 +31,145 @@
             url      : 'https://wp.nkdev.info/free-visual-portfolio/',
             download : 'https://wordpress.org/plugins/visual-portfolio/'
         },
-        docspress: {
-            name     : 'DocsPress',
-            tag      : 'Free',
-            img      : 'https://a.nkdev.info/docspress/preview.jpg',
-            url      : 'https://nkdev.info/docs/',
-            download : 'https://wordpress.org/plugins/docspress/'
+        skylith: {
+            name     : 'Skylith',
+            tag      : 'WP',
+            img      : 'https://s3.envato.com/files/259157417/01_preview.__large_preview.jpg',
+            url      : 'https://wp.nkdev.info/skylith/',
+            purchase : 'https://1.envato.market/A35Q1',
+            demos: {
+                main: {
+                    name     : 'Main',
+                    url      : 'https://wp.nkdev.info/skylith/'
+                },
+                classic_agency: {
+                    name     : 'Classic Agency',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-classic-agency/'
+                },
+                minimal_photography: {
+                    name     : 'Minimal Photography',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-photography/'
+                },
+                minimal_split_portfolio: {
+                    name     : 'Minimal Split Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-split/'
+                },
+                creative_outline_portfolio: {
+                    name     : 'Creative Outline Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-portfolio-outline/'
+                },
+                dark_creative_agency: {
+                    name     : 'Dark Creative Agency',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-creative-agency/'
+                },
+                architecture_interior: {
+                    name     : 'Architecture & Interior',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-architecture/'
+                },
+                designer_portfolio: {
+                    name     : 'Designer Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-designer-portfolio/'
+                },
+                minimal_agency: {
+                    name     : 'Minimal Agency',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-agency/'
+                },
+                dark_portfolio: {
+                    name     : 'Dark Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-portfolio/'
+                },
+                minimal_portfolio: {
+                    name     : 'Minimal Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-freelancer-portfolio/'
+                },
+                digital_agency_fullscreen: {
+                    name     : 'Digital Agency Fullscreen',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-fullscreen-slider/'
+                },
+                creative_portfolio_text: {
+                    name     : 'Creative Portfolio Text',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-text/'
+                },
+                creative_agency: {
+                    name     : 'Creative Agency',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-agency/'
+                },
+                creative_portfolio: {
+                    name     : 'Creative Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-portfolio/'
+                },
+                creative_freelancer: {
+                    name     : 'Creative Freelancer',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-freelancer-portfolio/'
+                },
+                minimal_agency_2: {
+                    name     : 'Minimal Agency 2',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-agency-v2/'
+                },
+                video_gallery: {
+                    name     : 'Video Gallery',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-video-gallery/'
+                },
+                dark_photographer: {
+                    name     : 'Dark Photographer',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-photographer/'
+                },
+                minimal_one_pages: {
+                    name     : 'Minimal One Page',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-one-page/'
+                },
+                business_one_page: {
+                    name     : 'Business One Page',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-business-one-page/'
+                },
+                minimal_shop: {
+                    name     : 'Minimal Shop',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-shop/'
+                },
+                creative_agency_2: {
+                    name     : 'Creative Agency 2',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-agency-v2/'
+                },
+                creative_developer_portfolio: {
+                    name     : 'Creative Developer Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-creative-developer-portfolio/'
+                },
+                dark_fullscreen_agency: {
+                    name     : 'Dark Fullscreen Agency',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-fullscreen/'
+                },
+                photographer_fullscreen: {
+                    name     : 'Photographer Fullscreen',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-photo-slideshow/'
+                },
+                dark_fullscreen_portfolio: {
+                    name     : 'Dark Fullscreen Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-split-portfolio/'
+                },
+                modern_dark_portfolio: {
+                    name     : 'Modern Dark Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-modern-portfolio/'
+                },
+                carousel_portfolio: {
+                    name     : 'Carousel Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-minimal-carousel-portfolio/'
+                },
+                modern_fullscreen_portfolio: {
+                    name     : 'Modern Fullscreen Portfolio',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-creative-portfolio/'
+                },
+                fullscreen_slider: {
+                    name     : 'Fullscreen Slider',
+                    url      : 'https://wp.nkdev.info/skylith/demo-dark-photographer-slider/'
+                },
+            }
         },
         khaki: {
             name     : 'Khaki',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230741852/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/khaki/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=19968221&ref=_nK',
+            purchase : 'https://1.envato.market/MKjkM',
             demos: {
                 corporate: {
                     name     : 'Corporate',
@@ -74,7 +214,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/232945805/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/godlike/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=18711623&ref=_nK',
+            purchase : 'https://1.envato.market/DW1q5',
             demos: {
                 main: {
                     name     : 'Main',
@@ -91,7 +231,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/216777453/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/youplay/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=11959042&ref=_nK',
+            purchase : 'https://1.envato.market/aN6YN',
             demos: {
                 dark: {
                     name     : 'Dark',
@@ -116,7 +256,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/piroll/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=20672319&ref=_nK',
+            purchase : 'https://1.envato.market/JkQo2',
             demos: {
                 minimal_portfolio: {
                     name     : 'Minimal Portfolio',
@@ -161,7 +301,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/252286659/00_Preview_WP.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/mimilism/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=22436104&ref=_nK',
+            purchase : 'https://1.envato.market/B5AeB',
             demos: {
                 home_1: {
                     name     : 'Minimal Agency',
@@ -230,7 +370,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/229723277/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/snow/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=19347252&ref=_nK',
+            purchase : 'https://1.envato.market/E0VGW',
             demos: {
                 home_default: {
                     name     : 'Home Default',
@@ -275,14 +415,14 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/235030366/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/riseapp/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=20796199&ref=_nK'
+            purchase : 'https://1.envato.market/OY5oZ'
         },
         musart: {
             name     : 'Musart',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/236036877/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/musart/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=20890063&ref=_nK',
+            purchase : 'https://1.envato.market/vDb13',
             demos: {
                 label: {
                     name     : 'Music Label',
@@ -299,14 +439,14 @@
             tag      : 'WP',
             url      : 'https://wp.nkdev.info/copter/',
             img      : 'https://s3.envato.com/files/238711897/InlinePreview.__large_preview.jpg',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=20953598&ref=_nK'
+            purchase : 'https://1.envato.market/NGPoq'
         },
         umbrella: {
             name     : 'Umbrella',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/219847768/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/umbrella/landing/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=18068692&ref=_nK',
+            purchase : 'https://1.envato.market/YVo4e',
             demos: {
                 main_demo: {
                     name     : 'Main',
@@ -331,7 +471,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/239290731/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/skylith/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=21214857&ref=_nK',
+            purchase : 'https://1.envato.market/DW1A5',
             demos: {
                 minimal_split: {
                     name     : 'Minimal Split',
@@ -448,14 +588,14 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/257525009/InlinePreview.__large_preview.png',
             url      : 'https://html.nkdev.info/amdesk/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=22996880&ref=_nK'
+            purchase : 'https://1.envato.market/rEbej'
         },
         godlike_html: {
             name     : 'Godlike',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/196803853/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/godlike/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=17166433&ref=_nK',
+            purchase : 'https://1.envato.market/k4bb0',
             demos: {
                 main: {
                     name     : 'Main',
@@ -472,7 +612,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/192949810/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/youplay/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=11306207&ref=_nK',
+            purchase : 'https://1.envato.market/xJbby',
             demos: {
                 dark: {
                     name     : 'Dark',
@@ -497,14 +637,14 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/205378368/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/goodgames/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=17704593&ref=_nK'
+            purchase : 'https://1.envato.market/9VQQE'
         },
         khaki_html: {
             name     : 'Khaki',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/223042890/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/khaki/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=16826910&ref=_nK',
+            purchase : 'https://1.envato.market/PzkkR',
             demos: {
                 corporate: {
                     name     : 'Corporate',
@@ -549,7 +689,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/piroll/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=20372990&ref=_nK',
+            purchase : 'https://1.envato.market/aN66Y',
             demos: {
                 minimal_portfolio: {
                     name     : 'Minimal Portfolio',
@@ -594,7 +734,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/220787616/00_Preview2.__large_preview.png',
             url      : 'https://html.nkdev.info/snow/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=18880113&ref=_nK',
+            purchase : 'https://1.envato.market/1GOOz',
             demos: {
                 home_default: {
                     name     : 'Home Default',
@@ -639,7 +779,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/219756952/01_preview%20HTML.__large_preview.jpg',
             url      : 'https://html.nkdev.info/umbrella/demo.html',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=17889537&ref=_nK',
+            purchase : 'https://1.envato.market/ZV44z',
             demos: {
                 main: {
                     name     : 'Main',
@@ -664,7 +804,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/171119514/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/_con/',
-            purchase : 'https://themeforest.net/cart/add_items?item_ids=10621512&ref=_nK',
+            purchase : 'https://1.envato.market/oNbbW',
             demos: {
                 main: {
                     name     : 'Main',
