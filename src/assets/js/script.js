@@ -153,7 +153,7 @@
                 localStorage.setItem('demo-frame-state', newClass);
             }
         });
-
+        
         // show purchase button when there is no top iframe (Envato iframe)
         if ( top === self ) {
             $('.show-when-no-top-frame')
@@ -227,6 +227,15 @@
                 $iframe.attr('src', url);
             }
         }
+
+        // fix iframe height calculation (on ios it is wrong calculated if no js)
+        function calculateIframeHeight() {
+            $iframe[0].style.height = ( window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight ) + 'px';
+        }
+        $(window).on('resize', calculateIframeHeight);
+        $(window).on('load', calculateIframeHeight);
+        $(document).on('ready', calculateIframeHeight);
+        calculateIframeHeight();
 
         // load default product
         loadProduct(currentProduct);
