@@ -28,7 +28,7 @@
             name     : 'Visual Portfolio',
             tag      : 'Free',
             img      : 'https://a.nkdev.info/visual-portfolio/preview.jpg',
-            url      : 'https://wp.nkdev.info/free-visual-portfolio/',
+            url      : 'https://visualportfolio.co/',
             download : 'https://wordpress.org/plugins/visual-portfolio/'
         },
         skylith: {
