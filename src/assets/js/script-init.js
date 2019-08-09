@@ -36,7 +36,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/259157417/01_preview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/skylith/',
-            purchase : 'https://1.envato.market/A35Q1',
+            purchase : 'https://1.envato.market/5Gxj9',
             demos: {
                 main: {
                     name     : 'Main',
@@ -169,7 +169,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230741852/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/khaki/',
-            purchase : 'https://1.envato.market/MKjkM',
+            purchase : 'https://1.envato.market/nvBno',
             demos: {
                 corporate: {
                     name     : 'Corporate',
@@ -214,7 +214,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/232945805/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/godlike/',
-            purchase : 'https://1.envato.market/DW1q5',
+            purchase : 'https://1.envato.market/61DGV',
             demos: {
                 main: {
                     name     : 'Main',
@@ -231,7 +231,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/216777453/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/youplay/',
-            purchase : 'https://1.envato.market/aN6YN',
+            purchase : 'https://1.envato.market/OZW1z',
             demos: {
                 dark: {
                     name     : 'Dark',
@@ -256,7 +256,7 @@
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/piroll/',
-            purchase : 'https://1.envato.market/JkQo2',
+            purchase : 'https://1.envato.market/3aL7X',
             demos: {
                 minimal_portfolio: {
                     name     : 'Minimal Portfolio',
@@ -296,81 +296,81 @@
                 }
             }
         },
-        mimilism: {
-            name     : 'Mimilism',
-            tag      : 'WP',
-            img      : 'https://s3.envato.com/files/252286659/00_Preview_WP.__large_preview.jpg',
-            url      : 'https://wp.nkdev.info/mimilism/',
-            purchase : 'https://1.envato.market/B5AeB',
-            demos: {
-                home_1: {
-                    name     : 'Minimal Agency',
-                    url      : 'https://wp.nkdev.info/mimilism/home-1/'
-                },
-                home_2: {
-                    name     : 'Portfolio 2 Columns',
-                    url      : 'https://wp.nkdev.info/mimilism/home-2/'
-                },
-                home_3: {
-                    name     : 'Portfolio 3 Columns',
-                    url      : 'https://wp.nkdev.info/mimilism/home-3/'
-                },
-                home_4: {
-                    name     : 'Digital Agency',
-                    url      : 'https://wp.nkdev.info/mimilism/home-4/'
-                },
-                home_5: {
-                    name     : 'Portfolio 4 Columns',
-                    url      : 'https://wp.nkdev.info/mimilism/home-5/'
-                },
-                home_6: {
-                    name     : 'Minimal Agency 2',
-                    url      : 'https://wp.nkdev.info/mimilism/home-6/'
-                },
-                home_7: {
-                    name     : 'Agency Portfolio',
-                    url      : 'https://wp.nkdev.info/mimilism/home-7/'
-                },
-                home_8: {
-                    name     : 'Minimal Portfolio',
-                    url      : 'https://wp.nkdev.info/mimilism/home-8/'
-                },
-                home_9: {
-                    name     : 'Digital Agency 2',
-                    url      : 'https://wp.nkdev.info/mimilism/home-9/'
-                },
-                home_10: {
-                    name     : 'Fullscreen Slider',
-                    url      : 'https://wp.nkdev.info/mimilism/home-10/'
-                },
-                home_11: {
-                    name     : 'Freelancer Portfolio',
-                    url      : 'https://wp.nkdev.info/mimilism/home-11/'
-                },
-                home_12: {
-                    name     : 'Home & Video',
-                    url      : 'https://wp.nkdev.info/mimilism/home-12/'
-                },
-                home_13: {
-                    name     : 'Fullscreen Slider 2',
-                    url      : 'https://wp.nkdev.info/mimilism/home-13/'
-                },
-                home_14: {
-                    name     : 'Dark Portfolio',
-                    url      : 'https://wp.nkdev.info/mimilism/home-14/'
-                },
-                home_15: {
-                    name     : 'Portfolio 1 Column',
-                    url      : 'https://wp.nkdev.info/mimilism/home-15/'
-                },
-            }
-        },
+        // mimilism: {
+        //     name     : 'Mimilism',
+        //     tag      : 'WP',
+        //     img      : 'https://s3.envato.com/files/252286659/00_Preview_WP.__large_preview.jpg',
+        //     url      : 'https://wp.nkdev.info/mimilism/',
+        //     purchase : 'https://1.envato.market/B5AeB',
+        //     demos: {
+        //         home_1: {
+        //             name     : 'Minimal Agency',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-1/'
+        //         },
+        //         home_2: {
+        //             name     : 'Portfolio 2 Columns',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-2/'
+        //         },
+        //         home_3: {
+        //             name     : 'Portfolio 3 Columns',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-3/'
+        //         },
+        //         home_4: {
+        //             name     : 'Digital Agency',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-4/'
+        //         },
+        //         home_5: {
+        //             name     : 'Portfolio 4 Columns',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-5/'
+        //         },
+        //         home_6: {
+        //             name     : 'Minimal Agency 2',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-6/'
+        //         },
+        //         home_7: {
+        //             name     : 'Agency Portfolio',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-7/'
+        //         },
+        //         home_8: {
+        //             name     : 'Minimal Portfolio',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-8/'
+        //         },
+        //         home_9: {
+        //             name     : 'Digital Agency 2',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-9/'
+        //         },
+        //         home_10: {
+        //             name     : 'Fullscreen Slider',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-10/'
+        //         },
+        //         home_11: {
+        //             name     : 'Freelancer Portfolio',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-11/'
+        //         },
+        //         home_12: {
+        //             name     : 'Home & Video',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-12/'
+        //         },
+        //         home_13: {
+        //             name     : 'Fullscreen Slider 2',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-13/'
+        //         },
+        //         home_14: {
+        //             name     : 'Dark Portfolio',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-14/'
+        //         },
+        //         home_15: {
+        //             name     : 'Portfolio 1 Column',
+        //             url      : 'https://wp.nkdev.info/mimilism/home-15/'
+        //         },
+        //     }
+        // },
         snow: {
             name     : 'Snow',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/229723277/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/snow/',
-            purchase : 'https://1.envato.market/E0VGW',
+            purchase : 'https://1.envato.market/RoWRa',
             demos: {
                 home_default: {
                     name     : 'Home Default',
@@ -410,19 +410,12 @@
                 }
             }
         },
-        riseapp: {
-            name     : 'Riseapp',
-            tag      : 'WP',
-            img      : 'https://s3.envato.com/files/235030366/InlinePreview.__large_preview.jpg',
-            url      : 'https://wp.nkdev.info/riseapp/',
-            purchase : 'https://1.envato.market/OY5oZ'
-        },
         musart: {
             name     : 'Musart',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/236036877/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/musart/',
-            purchase : 'https://1.envato.market/vDb13',
+            purchase : 'https://1.envato.market/vvO2O',
             demos: {
                 label: {
                     name     : 'Music Label',
@@ -439,14 +432,14 @@
             tag      : 'WP',
             url      : 'https://wp.nkdev.info/copter/',
             img      : 'https://s3.envato.com/files/238711897/InlinePreview.__large_preview.jpg',
-            purchase : 'https://1.envato.market/NGPoq'
+            purchase : 'https://1.envato.market/4AqdM'
         },
         umbrella: {
             name     : 'Umbrella',
             tag      : 'WP',
             img      : 'https://s3.envato.com/files/219847768/InlinePreview.__large_preview.jpg',
             url      : 'https://wp.nkdev.info/umbrella/landing/',
-            purchase : 'https://1.envato.market/YVo4e',
+            purchase : 'https://1.envato.market/NJmNv',
             demos: {
                 main_demo: {
                     name     : 'Main',
@@ -471,7 +464,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/239290731/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/skylith/',
-            purchase : 'https://1.envato.market/DW1A5',
+            purchase : 'https://1.envato.market/yvBrv',
             demos: {
                 minimal_split: {
                     name     : 'Minimal Split',
@@ -588,14 +581,14 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/257525009/InlinePreview.__large_preview.png',
             url      : 'https://html.nkdev.info/amdesk/',
-            purchase : 'https://1.envato.market/rEbej'
+            purchase : 'https://1.envato.market/YY0dm'
         },
         godlike_html: {
             name     : 'Godlike',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/196803853/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/godlike/',
-            purchase : 'https://1.envato.market/k4bb0',
+            purchase : 'https://1.envato.market/MVWQ3',
             demos: {
                 main: {
                     name     : 'Main',
@@ -612,7 +605,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/192949810/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/youplay/',
-            purchase : 'https://1.envato.market/xJbby',
+            purchase : 'https://1.envato.market/7VQbr',
             demos: {
                 dark: {
                     name     : 'Dark',
@@ -637,14 +630,14 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/205378368/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/goodgames/',
-            purchase : 'https://1.envato.market/9VQQE'
+            purchase : 'https://1.envato.market/L1WDL'
         },
         khaki_html: {
             name     : 'Khaki',
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/223042890/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/khaki/',
-            purchase : 'https://1.envato.market/PzkkR',
+            purchase : 'https://1.envato.market/DmJLo',
             demos: {
                 corporate: {
                     name     : 'Corporate',
@@ -689,7 +682,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/230736749/Preview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/piroll/',
-            purchase : 'https://1.envato.market/aN66Y',
+            purchase : 'https://1.envato.market/QXWKM',
             demos: {
                 minimal_portfolio: {
                     name     : 'Minimal Portfolio',
@@ -734,7 +727,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/220787616/00_Preview2.__large_preview.png',
             url      : 'https://html.nkdev.info/snow/',
-            purchase : 'https://1.envato.market/1GOOz',
+            purchase : 'https://1.envato.market/9Zre0',
             demos: {
                 home_default: {
                     name     : 'Home Default',
@@ -779,7 +772,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/219756952/01_preview%20HTML.__large_preview.jpg',
             url      : 'https://html.nkdev.info/umbrella/demo.html',
-            purchase : 'https://1.envato.market/ZV44z',
+            purchase : 'https://1.envato.market/ryBg5',
             demos: {
                 main: {
                     name     : 'Main',
@@ -804,7 +797,7 @@
             tag      : 'HTML',
             img      : 'https://s3.envato.com/files/171119514/InlinePreview.__large_preview.jpg',
             url      : 'https://html.nkdev.info/_con/',
-            purchase : 'https://1.envato.market/oNbbW',
+            purchase : 'https://1.envato.market/j4B1v',
             demos: {
                 main: {
                     name     : 'Main',
